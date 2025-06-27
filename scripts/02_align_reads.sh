@@ -1,12 +1,17 @@
 #!/bin/bash
 
+# Load required modules
+module load hisat2
+module load samtools
+
 # Script to align reads using HISAT2
 # Set paths (matching your file structure)
-FASTQ="../data/raw/ERR1157204.fastq"
-INDEX="../results/alignment/ecoli_hisat2_index"  # Your index from step 1
-OUTPUT="../results/alignment/ERR1157204.bam"
+FASTQ="../data/raw/ERR11572064.fastq"
+INDEX="../results/alignment/ecoli_hisat2_index"
+OUTPUT="../results/alignment/ERR11572064.bam"
 LOG="../results/logs/alignment.log"
 
+# Rest of your script...
 # Create log directory if it doesn't exist
 mkdir -p ../results/logs
 
