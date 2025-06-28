@@ -1,0 +1,57 @@
+===============================================
+E. COLI RNA-SEQ ANALYSIS REPORT
+===============================================
+Analysis Date: Sat Jun 28 14:56:33 EDT 2025
+Sample: ERR1157204
+Pipeline: HISAT2 + SAMtools
+
+===============================================
+1. ALIGNMENT SUMMARY
+===============================================
+Flagstat Results:
+11106948 + 0 in total (QC-passed reads + QC-failed reads)
+260778 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+3431846 + 0 mapped (30.90% : N/A)
+0 + 0 paired in sequencing
+0 + 0 read1
+0 + 0 read2
+0 + 0 properly paired (N/A : N/A)
+0 + 0 with itself and mate mapped
+0 + 0 singletons (N/A : N/A)
+0 + 0 with mate mapped to a different chr
+0 + 0 with mate mapped to a different chr (mapQ>=5)
+
+===============================================
+2. DETAILED STATISTICS
+===============================================
+Key Metrics:
+SN	reads mapped:	3171068
+SN	bases mapped:	320277868	# ignores clipping
+SN	average length:	101
+SN	average quality:	30.0
+
+===============================================
+3. COVERAGE ANALYSIS
+===============================================
+Average coverage: 42.4265
+
+===============================================
+4. ADDITIONAL ANALYSIS
+===============================================
+Sorted BAM file size: 277M
+Total mapped bases: 320277868
+Calculating genome coverage...
+Genome positions covered: 2828800 out of 4641444 (60.9466%)
+
+===============================================
+5. PIPELINE SUMMARY
+===============================================
+✅ HISAT2 index built successfully
+✅ Reads aligned with HISAT2
+✅ BAM file sorted and indexed
+✅ Comprehensive statistics generated
+
+Analysis completed successfully!
+===============================================
