@@ -5,7 +5,7 @@ This is a very simple Bioinformatics project I have build to get some hands on e
 For my first step, I use HISAT 2 to create an alignment index from the E.Coli reference genome which help in faster read mapping. It generated a couple of index files which were then processed to generate a SAM file which had all the details about the alignment. In step 2, Samtools is used to convert this SAM output to compressed BAM file, for faster processing. Then in the third script I process the data in the BAM file using samtols again. It performs, sorting, indexing ( stored in .bai file ), calculating coverage and stats. Step 4 was just creating a comprehensive report of all the statistics calculated in step 3.
 
 
-##Key Statistics Calculated:
+## Key Statistics Calculated:
 
 ### Total reads: 11,106,948 (our input FASTQ had ~11M reads)
 ### Mapped reads: 3,431,846 (30.90% mapping rate)
@@ -13,7 +13,7 @@ For my first step, I use HISAT 2 to create an alignment index from the E.Coli re
 ### No duplicates: 0 (good!)
 
 ## Why the paired-end stats are all 0?
-## - Our data is single-end RNA-seq, so all the "paired" statistics are irrelevant:
+## Our data is single-end RNA-seq, so all the "paired" statistics are irrelevant:
 
 #### 0 paired in sequencing  (correct - single-end)
 #### 0 properly paired (correct - single-end)
