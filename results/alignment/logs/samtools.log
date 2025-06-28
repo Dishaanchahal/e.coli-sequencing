@@ -1,0 +1,28 @@
+Processing BAM file with SAMtools...
+1. Sorting BAM file...
+Sorted BAM created: ../results/alignment/ERR11572064.sorted.bam
+2. Indexing sorted BAM...
+Index file created: ../results/alignment/ERR11572064.sorted.bam.bai
+3. Generating alignment statistics...
+4. Calculating coverage...
+SAMtools processing completed!
+Files created:
+  - Sorted BAM: ../results/alignment/ERR11572064.sorted.bam
+  - Statistics: ../results/stats/ERR11572064.stats.txt
+  - Flagstat: ../results/stats/ERR11572064.flagstat.txt
+  - Coverage: ../results/stats/ERR11572064.coverage.txt
+
+=== ALIGNMENT SUMMARY ===
+11106948 + 0 in total (QC-passed reads + QC-failed reads)
+260778 + 0 secondary
+0 + 0 supplementary
+0 + 0 duplicates
+3431846 + 0 mapped (30.90% : N/A)
+0 + 0 paired in sequencing
+0 + 0 read1
+0 + 0 read2
+0 + 0 properly paired (N/A : N/A)
+0 + 0 with itself and mate mapped
+0 + 0 singletons (N/A : N/A)
+0 + 0 with mate mapped to a different chr
+0 + 0 with mate mapped to a different chr (mapQ>=5)

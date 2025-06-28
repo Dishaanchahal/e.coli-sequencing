@@ -1,0 +1,5 @@
+Input: ../data/raw/ERR11572064.fastq
+Index: ../results/alignment/ecoli_hisat2_index
+Output: ../results/alignment/ERR11572064.bam
+Alignment completed!
+BAM file created: ../results/alignment/ERR11572064.bam
